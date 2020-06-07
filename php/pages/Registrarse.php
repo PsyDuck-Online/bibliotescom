@@ -4,13 +4,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Registrarse - Biblioteca Virtual</title>
-    <link rel="stylesheet" type="text/css" href="css/CSSRegistrarse.css">
+    <link rel="stylesheet" type="text/css" href="../../css/CSSRegistrarse.css">
 
     <script src="js/validar.js"></script>
 
 </head>
 
-<link rel="stylesheet" type="text/css" href="css/CSSRegistrarse.css">
+<link rel="stylesheet" type="text/css" href="../../css/CSSRegistrarse.css">
 
 <body>
 
@@ -19,12 +19,12 @@
     <div class="bar"></div>
 
     <div class="Logos">
-        <img src="img/ipnLogo.png" class="img1">
-        <img src="img/escom.png" class="img2">
+        <img src="../../img/ipnLogo.png" class="img1">
+        <img src="../../img/escom.png" class="img2">
     </div>
 
     <div class="txtdiv">
-        <form class="formul" action="php/funciones/registrarAlumno.php" method="post"
+        <form class="formul" action="../funciones/registrarAlumno.php" method="post"
             onsubmit="return validarRegistro();">
             <input type="text" id="boleta" placeholder="Boleta" name="boleta" required></br>
             <input type="text" id="nombre" placeholder="Nombre" name="nombre" required></br>

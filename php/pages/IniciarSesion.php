@@ -12,21 +12,21 @@ if (isset($_SESSION['usuario'])) {
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Iniciar - Biblioteca Virtual</title>
-    <link rel="stylesheet" type="text/css" href="css/CSSIniciarS.css">
+    <link rel="stylesheet" type="text/css" href="../../css/CSSIniciarS.css">
 </head>
 
-<link rel="stylesheet" type="text/css" href="css/CSSIniciarS.css">
+<link rel="stylesheet" type="text/css" href="../../css/CSSIniciarS.css">
 
 <body>
     <div style=" background-color: #F1F1F1; padding: 10px;"></div>
 
     <div>
-        <img src="img/ipnLogo.png" class="img1">
-        <img src="img/escom.png" class="img2">
+        <img src="../../img/ipnLogo.png" class="img1">
+        <img src="../../img/escom.png" class="img2">
     </div>
 
     <div class="txtdiv">
-        <form class="formul" action="php/funciones/logIn.php" method="post" id="iniciarSesion">
+        <form class="formul" action="../funciones/logIn.php" method="post" id="iniciarSesion">
             <input type="text" placeholder="Boleta" name="boleta">
             </br>
             <input type="password" placeholder="Password" name="pass">

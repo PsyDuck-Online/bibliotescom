@@ -41,8 +41,8 @@ if (isset($_SESSION['usuario'])) {
                 <li><a href="#">Estado de Libros</a></li>
                 <li><a href="#">Sesion</a>
                     <ul class="menSesion">
-                        <li><a href="IniciarSesion.php">Iniciar</a></li>
-                        <li><a href="Registrarse.php">Registrarse</a></li>
+                        <li><a href="php/pages/IniciarSesion.php">Iniciar</a></li>
+                        <li><a href="php/pages/Registrarse.php">Registrarse</a></li>
                         <li><a href="php/funciones/logOut.php">Cerrar Sesion</a></li>
                     </ul>
                 </li>
