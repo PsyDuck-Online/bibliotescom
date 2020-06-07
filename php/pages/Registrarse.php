@@ -26,16 +26,16 @@
     <div class="txtdiv">
         <form class="formul" action="../funciones/registrarAlumno.php" method="post"
             onsubmit="return validarRegistro();">
-            <input type="text" id="boleta" placeholder="Boleta" name="boleta" required></br>
-            <input type="text" id="nombre" placeholder="Nombre" name="nombre" required></br>
-            <input type="text" id="paterno" placeholder="Apellido Paterno" name="paterno" required><br />
-            <input type="text" id="materno" placeholder="Apellido Materno" name="materno" required><br />
-            <input type="number" min="1" id="semestre" placeholder="Semestre" name="semestre" required><br />
-            <input type="text" id="direccion" placeholder="Dirección" name="direccion" required><br />
-            <input type="email" id="email" placeholder="Correo" name="email" required><br />
-            <input type="password" id="pass" placeholder="Password" name="pass" required></br>
-            <input type="password" id="pass2" placeholder="Reingresa Contraseña" required></br>
-            <input type="submit" value="Validar" name="registrar" id="submit">
+            <input type="text" id="boleta" placeholder="Boleta" name="boleta"></br>
+            <input type="text" id="nombre" placeholder="Nombre" name="nombre"></br>
+            <input type="text" id="paterno" placeholder="Apellido Paterno" name="paterno"><br />
+            <input type="text" id="materno" placeholder="Apellido Materno" name="materno"><br />
+            <input type="number" min="1" id="semestre" placeholder="Semestre" name="semestre"><br />
+            <input type="text" id="direccion" placeholder="Dirección" name="direccion"><br />
+            <input type="email" id="email" placeholder="Correo" name="email"><br />
+            <input type="password" id="pass" placeholder="Password" name="pass"></br>
+            <input type="password" id="pass2" placeholder="Re ingresa Contraseña"></br>
+            <input type="submit" value="Validar" id="submit">
             <div id="error"></div>
     </div>
     </form>
