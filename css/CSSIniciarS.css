@@ -1,0 +1,87 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #4790E7;
+	font-family:Verdana, sans-serif;
+	font-size: 0.8em;
+}
+
+.img1{
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	height: 190px;
+	margin: auto;
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.img2{
+	position: absolute;
+	top: 40px;
+	right: 130px;
+	height: 180px;
+	margin: auto;
+	opacity: 0.5;
+	transition: 0.3s;
+}
+.img1:hover, .img2:hover{
+	transform: scale(1.2);
+	opacity: 1;
+	transition-delay: 0.3s;
+}
+
+.txtdiv{
+	background-color: #E4F4FF;
+	margin: 190px auto;
+	width: 420px;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border: 3px solid #8B3EF3;
+	border-radius: 50px;
+	box-shadow: 10px 10px 5px #3E6EB7;
+}
+
+.footer{
+	text-align: center;
+	width: 100%;
+	background-color: gray;
+	position: absolute;
+	color: white;
+	bottom: 0px;
+}
+
+.formul{
+	margin: auto;
+}
+
+.formul > input{
+	margin: 18px;
+	padding: 8px 8px 8px 8px;
+	border: none;
+	background: none;
+	outline: none;
+	border-bottom: 2px solid black;
+}
+
+#submit{
+	color: black;
+	margin: 12px;
+	padding: 5px 10px;
+	border: none;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+#submit:hover{
+	border: 2px solid blue;
+	background: white;
+}
