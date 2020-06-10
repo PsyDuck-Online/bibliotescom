@@ -11,6 +11,21 @@ if (mysqli_connect_errno()) {
 
 function validarLogIn($boleta, $pass, $conexion)
 {
+    // $query = "SELECT COUNT(*) as contar FROM alumno WHERE  boleta = '$boleta' and pass = '$pass';";
+    // $respuesta = mysqli_query($conexion, $query);
+    // $array = mysqli_fetch_array($respuesta);
+    // if ($array['contar'] == 0) {
+    //     echo "<script>
+    //         alert('Acceso denegado');
+    //     </script>";
+    // } else {
+    //     echo "<script>
+    //         alert('Bienvenido');
+    //     </script>";
+    // }
+
+    // return;
+
     $res = mysqli_query($conexion, "SELECT * FROM alumno WHERE boleta = '$boleta' and pass = '$pass';");
     if ($res->num_rows == 1) {
         return true;

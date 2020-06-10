@@ -1,3 +1,5 @@
+
+/* Etiquetas */
 *{
 	padding: 0;
 	margin: 0;
@@ -11,7 +13,8 @@ body{
 	font-family:Verdana, sans-serif;
 	font-size: 0.8em;
 }
-	
+/* Clases */
+
 .menuBV{
 	background: gray;
 }
@@ -62,7 +65,8 @@ body{
 	left: 2px;
 	top: 58px;
 	width: 680px;
-	height: 576px;
+	/* height: 576px; */
+	height: 90%;
 	z-index: -1;
 	display: flex;
 	align-items: center;
@@ -78,9 +82,12 @@ body{
 	left: 685px;
 	top: 58px;
 	right: 2px;
-	width: 680px;
-	height: 576px;
-	z-index: -1;
+	/* width: 680px; */
+	/* height: 576px; */
+	height: 90%;
+    z-index: -1;
+	text-align: center;
+	padding: 2rem;	
 }
 
 .footer{
@@ -90,4 +97,51 @@ body{
 	position: absolute;
 	color: white;
 	bottom: 0px;
+}
+/* Seccion 2 */
+h2{
+    font-size: 2rem;
+}
+
+.total-libros{
+	margin: 1rem 0;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.total-libros span{
+	font-size: 2rem;
+}
+
+th{
+	padding: 5px;
+}
+.div2-libros{
+	max-width: 800;
+	margin: 0 auto 0 auto;
+}
+.buscador{
+	width: 50%;
+	height: 2rem;
+}
+.listado-libros{
+	width: 100%;
+	margin-top: 1rem;
+	border-collapse: collapse;
+}
+.listado-libros thead{
+background-color: #ACCFE9;
+text-transform: uppercase;
+}
+
+.listado-libros tbody td{
+	padding: 1rem;
+}
+
+.listado-libros	.btn-disponibilidad {
+	background-color: transparent!important;
+	border: none;
+	font-size: 2rem;
+	text-decoration: none;
+	color: #2F9FF9;
 }

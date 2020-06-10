@@ -29,7 +29,7 @@ if (isset($_SESSION['usuario'])) {
     <header>
         <nav class="menuBV">
             <ul class="Menu">
-                <li><a href="#">Mapa Interactivo</a></li>
+                <li><a href="php/pages/MapaInteractivo.php">Mapa Interactivo</a></li>
                 <li><a href="#">Menu de Información</a>
                     <ul class="menMenu">
                         <li><a href="#">Documentos</a></li>

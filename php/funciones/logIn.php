@@ -12,7 +12,6 @@ if (validarLogIn($boleta, $pass, $conexion)) {
 
     echo "
     <script>
-        alert('Exito al entrar/Sesion creada.');
         location.href = 'http://localhost/bibliotescom/index.php';
     </script>
     ";
